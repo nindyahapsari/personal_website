@@ -1,0 +1,152 @@
+html, body {
+   /* height: 100%;  */
+   
+}
+
+#home-container {
+background: url(Web-design/Web\ 1280_new.png);
+background-size: cover;
+min-height: 115vh;
+
+}
+
+#navbar {
+    top: 5vh;
+}
+
+
+
+#header-name {
+    font-size: 25px;
+    padding: 30px;
+    font-family: 'Karla', sans-serif;
+    position: absolute;
+    
+    
+}
+
+#nav-skills-btn {
+    margin-left: 50vw;
+    font-size: 20px;
+    color: black;
+    padding: 35px;
+    font-family: 'Karla', sans-serif;
+}
+
+#nav-work-btn {
+    font-size: 20px;
+    color: black;
+    padding: 35px;
+    font-family: 'Karla', sans-serif;
+}
+
+#nav-cert-btn {
+    font-size: 20px;
+    color: black;
+    padding: 35px;
+    font-family: 'Karla', sans-serif;
+}
+
+#welcome-text {
+    margin-top: 40vh;
+    margin-left: 0; 
+    resize: vertical; 
+    overflow: auto;
+}
+
+#hello-text {
+    font-size: 50px;
+    font-family: 'Karla', sans-serif;
+}
+#focus-text {
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+#based-text {
+    font-family: 'Karla', sans-serif;
+}
+
+/* skills section */
+
+#container-skills {
+    background: url(Web-design/cyan-bg.png);
+    background-size: cover;
+    min-height: 115vh;
+}
+
+#skills-title {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#every-skill-box {
+    background-color: #F7E378;
+    position: relative;
+    width: 20vw;
+    height: 50vh;
+    top: 30vh;
+    padding: 30px;
+    align-items: center;
+    flex-flow: row wrap;
+    border-radius: 15px 30px;
+
+    
+}
+
+#skill-list {
+    font-size: 1vw;
+    font-family: 'Karla', sans-serif;
+}
+
+/* project section */
+
+.container-work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url(Web-design/pink-bg.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.project-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #53D3E3;
+    /* overflow: hidden; */
+}
+
+#weatherapp {
+   max-height: 100%;
+   padding: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 27%;
+}
+
+/* certificate section */
+
+#container-cert{
+    background: url(Web-design/yellow-bg.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
