@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
   
   
@@ -92,40 +93,42 @@
           <div id="card-wrapper">
             <div class="project-card">
                 <a href="" target="">
-                    <img id="weatherapp" src="images/weather_first.png" alt="">
-                    <p class="projec-text">Weather App <br> Android</p>
+                    <img class="project-img" id="weatherapp" src="images/weather_first.png" alt="">
+                    <p class="project-text" id="weatherapptext">Weather App <br> Android</p>
                   </a>
             </div>
+            
+
           
           
             <div class="project-card">
                 <a>
-                  <img id="todoapp" src="images/todo_tab_first.png" alt="">
-                    <p class="projec-text">To-do App <br> Android</p>
+                  <img class="project-img" id="todoapp" src="images/todo_tab_first.png" alt="">
+                    <p class="project-text" id="todoapptext">To-do App <br> Android</p>
                   </a>
             </div>
          
           
               <div class="project-card">
                   <a>
-                      <img id="plantapp" src="images/tf_plant_android_2.png" alt="">
-                      <p class="projec-text">Plant Detector App <br> Android</p>
+                      <img class="project-img" id="plantapp" src="images/tf_plant_android_2.png" width="170" height="140" alt="">
+                      <p class="project-text" id="plantdetectapptext">Plant Detector App <br> Android</p>
                     </a>
               </div>
           
           
               <div class="project-card">
                   <a>
-                      <img id="bubbleteaapp" src="images/pict_1.png">
-                      <p class="projec-text">Ordering Bubble Tea App <br> Android</p>
+                      <img class="project-img" id="bubbleteaapp" src="images/pict_1.png">
+                      <p class="project-text" id="bubteaapptext">Ordering Bubble Tea App <br> Android</p>
                     </a>
               </div>
           
           
               <div class="project-card">
                   <a>
-                      <img id="rqm" src="images/Screenshot-rqm.png">
-                      <p class="projec-text">Random Quote Machine <br> HTML CSS JS</p>
+                      <img class="project-img" id="rqm" src="images/Screenshot-rqm.png">
+                      <p class="project-text" id="rqmtext">Random Quote Machine <br> HTML CSS JS</p>
                     </a>
               </div>
           </div>
@@ -133,27 +136,37 @@
 
     </div>
 
+<!-- cert page -->
+
     <div id="container-cert">
       <div class="cert-holder">
 
         <div class="freecodecamp">
           <figure>
-            <img id="cert-img" src="images/cert/Front-End-Certificate-FCC.png" width="370" height="228 alt="Front End Libraries Certificate" >
+            <a href="images/cert/Front-End-Certificate-FCC.png" data-lightbox="mygallery">
+              <img id="cert-img" src="images/cert/Front-End-Certificate-FCC.png" width="370" height="228 alt="Front End Libraries Certificate" >
+            </a>
           </figure>
         </div>
         <div class="sandiego">
             <figure>
-              <img id="cert-img" src="images/cert/ucsandiego.jpg" width="370" height="280" alt="Data Structures and Performance Certificates" >
+              <a href="images/cert/ucsandiego.jpg" data-lightbox="mygallery">
+                <img id="cert-img" src="images/cert/ucsandiego.jpg" width="370" height="280" alt="Data Structures and Performance Certificates" >
+              </a>
             </figure>
           </div>
           <div class="duke">
               <figure>
-                <img id="cert-img" src="images/cert/duke.jpg" width="370" height="280 alt="Java Programming: Principal Of Software Design" >
+               <a href="images/cert/duke.jpg" data-lightbox="mygallery">
+                 <img id="cert-img" src="images/cert/duke.jpg" width="370" height="280 alt="Java Programming: Principal Of Software Design" >
+                </a>
               </figure>
             </div>
             <div class="standford">
                 <figure>
+                <a href="images/cert/standford.jpg" data-lightbox="mygallery">
                   <img id="cert-img" src="images/cert/standford.jpg" width="370" height="280 alt="Machine Learning" >
+                </a>
                 </figure>
               </div>
             </div>
@@ -169,6 +182,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="main.js"></script>
+<script src='js/lightbox.js'></script>
 <!-- JS Stuff -->
 
 
