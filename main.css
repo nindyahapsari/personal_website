@@ -312,21 +312,15 @@ ul {
   flex-wrap: wrap;
 }
 
-#github {
+#github, #codepen, #linkedin, #instagram {
   padding: 7px;
 }
 
-#codepen {
- padding: 7px;
-}
+#github:hover, #codepen:hover, #linkedin:hover, #instagram:hover {
+    transform: scale(1.3);
+    border-bottom: 1px solid black;
+  }
 
-#linkedin {
-  padding: 7px;
-}
-
-#instagram { 
- padding: 7px;
-}
 
 #copyright-text {
     font-size: 1vw;
