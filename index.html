@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   
   
@@ -43,7 +44,7 @@
           Certificate
         </a>
       </span>
-      <span id="nav-certificate" >
+      <span id="nav-contact" >
           <a href="#footer" id="nav-contact-btn">
             Contact
           </a>
@@ -58,19 +59,20 @@
 </div>
 
   <!-- skills section -->
-    <div class="flex-container" id="container-skills" >
-      <div id="every-skill-box" data-aos="fade-up-right" data-aos-duration="3000">
-          <h2 id="skills-title">Programming Language</h2>
-          <ul id="skill-list">
+    <div class="flex-container" id="container-skills">
+
+      <div class="every-skill-box" data-aos="fade-up-right" data-aos-duration="3000" id="programming-language" >
+          <h2 class="skills-title" id="program-lang">Programming Language</h2>
+          <ul class="skill-list">
               <li>HTML - CSS</li>
               <li>Java Script</li>
               <li>Java</li>
               <li>Python</li>
             </ul>
       </div>
-      <div id="every-skill-box" data-aos="fade-down-right" data-aos-duration="3000">
-          <h2 class="animated flipInX" id="skills-title">Tools and Library</h2>
-          <ul id="skill-list">
+      <div class="every-skill-box" data-aos="fade-down-right" data-aos-duration="3000" id="tools-library">
+          <h2 class="skills-title" id="tools-lib">Tools and Library</h2>
+          <ul class="skill-list">
               <li>Git</li>
               <li>VScode</li>
               <li>Android Studio</li>
@@ -82,15 +84,15 @@
               <li>Redux</li>
             </ul>
       </div>
-      <div id="every-skill-box" data-aos="fade-down-left" data-aos-duration="3000">
-          <h2 class="animated flipInX" id="skills-title">Softwares</h2>
-          <ul id="skill-list">
+      <div class="every-skill-box" data-aos="fade-down-left" data-aos-duration="3000" id="softwares">
+          <h2 class="skills-title" id="titlesoftwares">Softwares</h2>
+          <ul class="skill-list">
               <li>Adobe XD</li>
             </ul>
       </div>
-      <div id="every-skill-box" data-aos="fade-up-left" data-aos-duration="3000">
-          <h2 class="animated flipInX" id="skills-title">Human Language</h2>
-          <ul id="skill-list">
+      <div class="every-skill-box" data-aos="fade-up-left" data-aos-duration="3000" id="human-language">
+          <h2 class="skills-title" id="language">Human Language</h2>
+          <ul class="skill-list">
               <li>English</li>
               <li>Indonesian</li>
               <li>German</li>
@@ -102,12 +104,12 @@
 
     <div class="container-work" id="container-work">
 
-        <h1 id="project-head"><i class="fa fa-laptop-code" style="font-size: 3vw;"></i>Projects</h1>
+        <h1 data-aos="zoom-out-up" data-aos-duration="2000" id="project-head"><i class="fa fa-laptop-code" style="font-size: 3vw;"></i>Projects</h1>
 
           <div data-aos="flip-up" data-aos-duration="2500" class="card-wrapper" id="card-wrapper">
             <div class="project-card">
                 <a href="https://github.com/nindyahapsari/WeatherApp_Sunshine" target="_blank" rel="noopener noreferrer">
-                    <img class="project-img" id="weatherapp" src="images/weather_first.png" alt="">
+                    <img class="project-img" id="weatherapp" src="images/weather_first.png" alt="weather app screenshot">
                     <p class="project-text" id="weatherapptext">Weather App <br> Android</p>
                   </a>
             </div>
@@ -116,7 +118,7 @@
           
             <div class="project-card">
                 <a href="https://github.com/nindyahapsari/Todo_List" target="_blank" rel="noopener noreferrer">
-                  <img class="project-img" id="todoapp" src="images/todo_tab_first.png" alt="">
+                  <img class="project-img" id="todoapp" src="images/todo_tab_first.png" alt="todo app screenshot">
                     <p class="project-text" id="todoapptext">To-do App <br> Android</p>
                   </a>
             </div>
@@ -124,7 +126,7 @@
           
               <div class="project-card">
                   <a href="https://github.com/nindyahapsari/plants-id" target="_blank" rel="noopener noreferrer">
-                      <img class="project-img" id="plantapp" src="images/tf_plant_android_2.png" width="170" height="140" alt="">
+                      <img class="project-img" id="plantapp" src="images/tf_plant_android_2.png" width="170" height="140" alt="plant detector app screenshot">
                       <p class="project-text" id="plantdetectapptext">Plant Detector App <br> Android</p>
                     </a>
               </div>
@@ -132,7 +134,7 @@
           
               <div class="project-card">
                   <a href="https://github.com/nindyahapsari/BubTeaApp" target="_blank" rel="noopener noreferrer">
-                      <img class="project-img" id="bubbleteaapp" src="images/pict_1.png">
+                      <img class="project-img" id="bubbleteaapp" src="images/pict_1.png" alt="bubbletea app screenshot">
                       <p class="project-text" id="bubteaapptext">Ordering Bubble Tea App <br> Android</p>
                     </a>
               </div>
@@ -140,7 +142,7 @@
           
               <div class="project-card">
                   <a href="https://github.com/nindyahapsari/random_quote_machine" target="_blank" rel="noopener noreferrer">
-                      <img class="project-img" id="rqm" src="images/Screenshot-rqm.png">
+                      <img class="project-img" id="rqm" src="images/Screenshot-rqm.png" alt="random quote machine screenshot">
                       <p class="project-text" id="rqmtext">Random Quote Machine <br> HTML CSS JS</p>
                     </a>
               </div>
@@ -155,34 +157,34 @@
 
 
     <div id="container-cert">
-        <h1 id="cert-head"><i class="fas fa-graduation-cap" style="font-size: 2.5vw;"></i>Achievements</h1>
+        <h1 data-aos="flip-right"  data-aos-duration="2000" id="cert-head"><i class="fas fa-graduation-cap" style="font-size: 2.5vw;"></i>Achievements</h1>
       <div class="cert-holder">
 
         <div data-aos="flip-left" data-aos-duration="2000" class="freecodecamp">
           <figure>
             <a href="images/cert/Front-End-Certificate-FCC.png" data-lightbox="mygallery">
-              <img id="cert-img" src="images/cert/Front-End-Certificate-FCC.png" width="370" height="228 alt="Front End Libraries Certificate" >
+              <img class="cert-img" src="images/cert/Front-End-Certificate-FCC.png" width="370" height="228" alt="front-end-library-certificate">
             </a>
           </figure>
         </div>
         <div data-aos="flip-right" data-aos-duration="2000" class="sandiego">
             <figure>
               <a href="images/cert/ucsandiego.jpg" data-lightbox="mygallery">
-                <img id="cert-img" src="images/cert/ucsandiego.jpg" width="370" height="280" alt="Data Structures and Performance Certificates" >
+                <img class="cert-img" src="images/cert/ucsandiego.jpg" width="370" height="280" alt="data-structure-certificate" >
               </a>
             </figure>
           </div>
           <div data-aos="flip-left" data-aos-duration="2000" class="duke">
               <figure>
                <a href="images/cert/duke.jpg" data-lightbox="mygallery">
-                 <img id="cert-img" src="images/cert/duke.jpg" width="370" height="280 alt="Java Programming: Principal Of Software Design" >
+                 <img class="cert-img" src="images/cert/duke.jpg" width="370" height="280" alt="principal-of-programming-cert">
                 </a>
               </figure>
             </div>
             <div data-aos="flip-right" data-aos-duration="2000" class="standford">
                 <figure>
                 <a href="images/cert/standford.jpg" data-lightbox="mygallery">
-                  <img id="cert-img" src="images/cert/standford.jpg" width="370" height="280 alt="Machine Learning" >
+                  <img class="cert-img" src="images/cert/standford.jpg" width="370" height="280" alt="machine-learning">
                 </a>
                 </figure>
               </div>
@@ -224,7 +226,6 @@
 
 <!-- JS stuff -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="main.js"></script>
 <script src='js/lightbox.js'></script>

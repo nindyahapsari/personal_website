@@ -82,7 +82,7 @@ min-height: 115vh;
     min-height: 115vh;
 }
 
-#skills-title {
+.skills-title {
     font-size: 2vw;
     text-align: center;
     font-weight: bold;
@@ -97,7 +97,7 @@ min-height: 115vh;
     
 }
 
-#every-skill-box {
+.every-skill-box {
     background-color: #F7E378;
     position: relative;
     width: 20vw;
@@ -106,12 +106,12 @@ min-height: 115vh;
     padding: 30px;
     align-items: center;
     flex-flow: row wrap;
-    border-radius: 15px 30px;
+    border-radius: 15px;
 
     
 }
 
-#skill-list {
+.skill-list {
     font-size: 1vw;
     font-family: 'Karla', sans-serif;
 }
@@ -267,13 +267,13 @@ ul {
     align-content: space-around;  
 }
 
-#cert-img {
+.cert-img {
     padding: 10px;
     margin: 30px;
     background: #EF7676;
 }
 
-#cert-img:hover {
+.cert-img:hover {
     transform: scale(1.3);
 
 }
