@@ -8,11 +8,13 @@
 <!--styles-->
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   
   
@@ -37,8 +39,15 @@
         </a>
       </span>
       <span id="nav-certificate" >
-        <a href="#container-cert" id="nav-cert-btn">Certificate</a>
+        <a href="#container-cert" id="nav-cert-btn">
+          Certificate
+        </a>
       </span>
+      <span id="nav-certificate" >
+          <a href="#footer" id="nav-contact-btn">
+            Contact
+          </a>
+        </span>
     </div>
   </nav>
   <div class="container-fluid" id="welcome-text">
@@ -48,10 +57,10 @@
   </div>
 </div>
 
-  
-    <div class="flex-container" id="container-skills">
-      <div id="every-skill-box">
-          <h2 class="animated flipInX" id="skills-title">Programming Language</h2>
+  <!-- skills section -->
+    <div class="flex-container" id="container-skills" >
+      <div id="every-skill-box" data-aos="fade-up-right" data-aos-duration="3000">
+          <h2 id="skills-title">Programming Language</h2>
           <ul id="skill-list">
               <li>HTML - CSS</li>
               <li>Java Script</li>
@@ -59,7 +68,7 @@
               <li>Python</li>
             </ul>
       </div>
-      <div id="every-skill-box">
+      <div id="every-skill-box" data-aos="fade-down-right" data-aos-duration="3000">
           <h2 class="animated flipInX" id="skills-title">Tools and Library</h2>
           <ul id="skill-list">
               <li>Git</li>
@@ -73,13 +82,13 @@
               <li>Redux</li>
             </ul>
       </div>
-      <div id="every-skill-box">
+      <div id="every-skill-box" data-aos="fade-down-left" data-aos-duration="3000">
           <h2 class="animated flipInX" id="skills-title">Softwares</h2>
           <ul id="skill-list">
               <li>Adobe XD</li>
             </ul>
       </div>
-      <div id="every-skill-box">
+      <div id="every-skill-box" data-aos="fade-up-left" data-aos-duration="3000">
           <h2 class="animated flipInX" id="skills-title">Human Language</h2>
           <ul id="skill-list">
               <li>English</li>
@@ -88,11 +97,16 @@
             </ul>
       </div>
     </div>
-  
+  <!-- end skills section -->
+<!-- project page -->
+
     <div class="container-work" id="container-work">
-          <div id="card-wrapper">
+
+        <h1 id="project-head"><i class="fa fa-laptop-code" style="font-size: 3vw;"></i>Projects</h1>
+
+          <div data-aos="flip-up" data-aos-duration="2500" class="card-wrapper" id="card-wrapper">
             <div class="project-card">
-                <a href="" target="">
+                <a href="https://github.com/nindyahapsari/WeatherApp_Sunshine" target="_blank" rel="noopener noreferrer">
                     <img class="project-img" id="weatherapp" src="images/weather_first.png" alt="">
                     <p class="project-text" id="weatherapptext">Weather App <br> Android</p>
                   </a>
@@ -100,9 +114,8 @@
             
 
           
-          
             <div class="project-card">
-                <a>
+                <a href="https://github.com/nindyahapsari/Todo_List" target="_blank" rel="noopener noreferrer">
                   <img class="project-img" id="todoapp" src="images/todo_tab_first.png" alt="">
                     <p class="project-text" id="todoapptext">To-do App <br> Android</p>
                   </a>
@@ -110,7 +123,7 @@
          
           
               <div class="project-card">
-                  <a>
+                  <a href="https://github.com/nindyahapsari/plants-id" target="_blank" rel="noopener noreferrer">
                       <img class="project-img" id="plantapp" src="images/tf_plant_android_2.png" width="170" height="140" alt="">
                       <p class="project-text" id="plantdetectapptext">Plant Detector App <br> Android</p>
                     </a>
@@ -118,7 +131,7 @@
           
           
               <div class="project-card">
-                  <a>
+                  <a href="https://github.com/nindyahapsari/BubTeaApp" target="_blank" rel="noopener noreferrer">
                       <img class="project-img" id="bubbleteaapp" src="images/pict_1.png">
                       <p class="project-text" id="bubteaapptext">Ordering Bubble Tea App <br> Android</p>
                     </a>
@@ -126,7 +139,7 @@
           
           
               <div class="project-card">
-                  <a>
+                  <a href="https://github.com/nindyahapsari/random_quote_machine" target="_blank" rel="noopener noreferrer">
                       <img class="project-img" id="rqm" src="images/Screenshot-rqm.png">
                       <p class="project-text" id="rqmtext">Random Quote Machine <br> HTML CSS JS</p>
                     </a>
@@ -136,33 +149,37 @@
 
     </div>
 
+<!-- end project page -->
+
 <!-- cert page -->
 
+
     <div id="container-cert">
+        <h1 id="cert-head"><i class="fas fa-graduation-cap" style="font-size: 2.5vw;"></i>Achievements</h1>
       <div class="cert-holder">
 
-        <div class="freecodecamp">
+        <div data-aos="flip-left" data-aos-duration="2000" class="freecodecamp">
           <figure>
             <a href="images/cert/Front-End-Certificate-FCC.png" data-lightbox="mygallery">
               <img id="cert-img" src="images/cert/Front-End-Certificate-FCC.png" width="370" height="228 alt="Front End Libraries Certificate" >
             </a>
           </figure>
         </div>
-        <div class="sandiego">
+        <div data-aos="flip-right" data-aos-duration="2000" class="sandiego">
             <figure>
               <a href="images/cert/ucsandiego.jpg" data-lightbox="mygallery">
                 <img id="cert-img" src="images/cert/ucsandiego.jpg" width="370" height="280" alt="Data Structures and Performance Certificates" >
               </a>
             </figure>
           </div>
-          <div class="duke">
+          <div data-aos="flip-left" data-aos-duration="2000" class="duke">
               <figure>
                <a href="images/cert/duke.jpg" data-lightbox="mygallery">
                  <img id="cert-img" src="images/cert/duke.jpg" width="370" height="280 alt="Java Programming: Principal Of Software Design" >
                 </a>
               </figure>
             </div>
-            <div class="standford">
+            <div data-aos="flip-right" data-aos-duration="2000" class="standford">
                 <figure>
                 <a href="images/cert/standford.jpg" data-lightbox="mygallery">
                   <img id="cert-img" src="images/cert/standford.jpg" width="370" height="280 alt="Machine Learning" >
@@ -172,6 +189,34 @@
             </div>
     </div>
 <!-- end cert -->
+
+<!-- footer -->
+<div id="footer" class="footer-contact" >
+
+    <h1 id="footer-header">I am open for projects. Would you like to discuss yours?
+      </h1>
+        <p data-aos="zoom-out" data-aos-duration="2500" id="footer-email">nindyahapsariiljas@yahoo.com</p>
+        <div data-aos="zoom-out-up" data-aos-duration="2500"  class="socialmedia-container">
+          <div id="github">
+            <a href="https://github.com/nindyahapsari" target="_blank" rel="noopener noreferrer" style="color: black"><i class="fab fa-github"></i></a>
+          </div>
+          
+          <div id="codepen">
+            <a href="https://codepen.io/nindyahapsari/" target="_blank" rel="noopener noreferrer" style="color: black"><i class="fab fa-codepen"></i></a>
+          </div>
+          
+          <div id="linkedin">
+            <a href="https://www.linkedin.com/in/nindya-hapsari-a5000a153/" target="_blank" rel="noopener noreferrer" style="color: black"><i class="fab fa-linkedin"></i></a> 
+          </div>
+          
+          <div id="instagram">
+            <a href="https://www.instagram.com/butter_scotch/" target="_blank" rel="noopener noreferrer" style="color: black"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+  <footer id="copyright-text"><i class="far fa-copyright"></i>2019 Nindya Hapsari All rights reserved</footer>
+</div>
+<!-- end footer -->
 
 </div>
   
@@ -183,6 +228,11 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="main.js"></script>
 <script src='js/lightbox.js'></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <!-- JS Stuff -->
 
 
