@@ -136,6 +136,7 @@ min-height: 115vh;
 #card-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -184,7 +185,10 @@ min-height: 115vh;
     padding-left: 27%;
  }
 
-
+#website {
+    padding-left: 10px;
+    padding-top: 50px;
+}
 
 #todoapp {
     max-height: 100%;
@@ -204,6 +208,11 @@ min-height: 115vh;
 
 #todoapptext {
     margin-left: 55px;
+}
+
+#personalwebtext {
+    margin-top: 80px;
+    margin-left: 40px;
 }
 
 #bubteaapptext {
@@ -237,7 +246,7 @@ min-height: 115vh;
     align-items: center;
  }
 
-/* Project page */
+/* end Project page */
 
 /* certificate section */
 
@@ -323,7 +332,7 @@ ul {
 
 
 #copyright-text {
-    font-size: 1vw;
+  font-size: 1vw;
   padding-top: 7vh;
   padding-bottom: 3vh;
  text-align: center;

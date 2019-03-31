@@ -14,6 +14,9 @@ $(document).ready(function() {
         }
     });
 
+
+    // hover function on skills section
+
     $('#program-lang').hover(function(){
         $('#programming-language').animate({ opacity: '1', borderRadius: '50px'}, 100,
         function(){$('#tools-library, #softwares, #human-language').animate({ opacity: '0.5'});}
@@ -54,12 +57,3 @@ $('#language').hover(function(){
 
     
 });
-
-// , function(){
-//     $('softwares').hide(1000);
-// }, function(){
-//     $('human-language').hide(1000);
-// } )
-
-// function(){ $('#programming-language').animate({height: "0px"}, 1000);
-//     }
