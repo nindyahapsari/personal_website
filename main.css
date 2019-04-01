@@ -1,17 +1,23 @@
 html, body {
-   /* height: 100%;  */
+   width: 100%; 
    
 }
 
+#wrapper-website {
+    width: 100%;
+}
+
 #home-container {
-background: url(Web-design/Web\ 1280_new.png);
+background: url(Web-design/homepage_bg.png);
 background-size: cover;
 min-height: 115vh;
+width: 100%; 
 
 }
 
 #navbar {
     top: 5vh;
+
 }
 
 
@@ -27,28 +33,29 @@ min-height: 115vh;
 
 #nav-skills-btn {
     margin-left: 50vw;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: black;
     padding: 35px;
     font-family: 'Karla', sans-serif;
+
 }
 
 #nav-work-btn {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: black;
     padding: 35px;
     font-family: 'Karla', sans-serif;
 }
 
 #nav-cert-btn {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: black;
     padding: 35px;
     font-family: 'Karla', sans-serif;
 }
 
 #nav-contact-btn {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: black;
     padding: 35px;
     font-family: 'Karla', sans-serif;
@@ -77,9 +84,10 @@ min-height: 115vh;
 /* skills section */
 
 #container-skills {
-    background: url(Web-design/cyan-bg.png);
+    background: url(Web-design/skills_bg.png);
     background-size: cover;
     min-height: 115vh;
+    width: 100%;
 }
 
 .flex-container {
@@ -109,6 +117,8 @@ min-height: 115vh;
     align-items: center;
     flex-flow: row wrap;
     border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .skill-list {
@@ -125,7 +135,7 @@ min-height: 115vh;
 /* project section */
 
 .container-work{ 
-    background: url(Web-design/pink-bg.png);
+    background: url(Web-design/project_bg.png);
     background-size: cover; 
     min-height: 100vh;
 }
@@ -155,13 +165,15 @@ min-height: 115vh;
     height: 200px;
     margin: 10px;
     background-color: #53D3E3;
+    border-style: solid;
+    border-width: 2px;
     /* overflow: hidden; */
 }
 
 
 
 .project-card:hover .project-text {
-    color: white;
+    color: black;
     transform: scale(1.1);
     opacity: 1;    
  }
@@ -257,7 +269,7 @@ min-height: 115vh;
 /* certificate section */
 
 #container-cert{
-    background: url(Web-design/yellow-bg.png);
+    background: url(Web-design/cert_bg.png);
     background-size: cover;
     min-height: 100vh;
 }
@@ -286,6 +298,9 @@ ul {
     padding: 10px;
     margin: 30px;
     background: #EF7676;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
 }
 
 .cert-img:hover {
