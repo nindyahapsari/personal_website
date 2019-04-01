@@ -35,8 +35,8 @@ $(document).ready(function() {
 } 
         );
         
-$('#titlesoftwares').hover(function(){
-        $('#softwares').animate({ opacity: '1', borderRadius: '50px'}, 100,
+$('#titlesoftwares').hover(
+        function(){$('#softwares').animate({ opacity: '1', borderRadius: '50px'}, 100,
         function(){$('#programming-language, #tools-library, #human-language').animate({ opacity: '0.5'});}
         );
     }, 
@@ -44,8 +44,8 @@ $('#titlesoftwares').hover(function(){
 } 
         );          
 
-$('#language').hover(function(){
-        $('#human-language').animate({ opacity: '1', borderRadius: '50px'}, 100,
+$('#language').hover(
+        function(){$('#human-language').animate({ opacity: '1', borderRadius: '50px'}, 100,
         function(){$('#programming-language, #tools-library, #softwares').animate({ opacity: '0.5'});}
         );
     }, 

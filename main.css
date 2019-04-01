@@ -82,6 +82,15 @@ min-height: 115vh;
     min-height: 115vh;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+    
+}
+
 .skills-title {
     font-size: 2vw;
     text-align: center;
@@ -90,31 +99,28 @@ min-height: 115vh;
     font-family: 'Karla', sans-serif;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-}
-
 .every-skill-box {
     background-color: #F7E378;
     position: relative;
     width: 20vw;
-    height: 50vh;
+    height: 70vh;
     top: 30vh;
     padding: 30px;
     align-items: center;
     flex-flow: row wrap;
     border-radius: 15px;
-
-    
 }
 
 .skill-list {
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-family: 'Karla', sans-serif;
 }
+
+.toolslib:hover, .programlanguage:hover, .softwaretitle:hover, .humlangtitle:hover {
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
 
 /* project section */
 
@@ -167,7 +173,7 @@ min-height: 115vh;
 
 
 .project-text {
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -211,7 +217,7 @@ min-height: 115vh;
 }
 
 #personalwebtext {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 40px;
 }
 
