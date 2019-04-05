@@ -208,6 +208,11 @@ width: 100%;
     padding-top: 50px;
 }
 
+#drum_machine {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
 #todoapp {
     max-height: 100%;
     padding: 6px;
@@ -229,6 +234,11 @@ width: 100%;
 }
 
 #personalwebtext {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#dmtext {
     margin-top: 50px;
     margin-left: 40px;
 }
